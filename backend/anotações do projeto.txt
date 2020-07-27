@@ -1,0 +1,26 @@
+install express
+//GET: Busca informações
+//POST: Cria informação
+// PUT: Alterar informção
+//DELETE: Deletar informações
+
+/**
+ * Tipos de parâmetros
+ * 
+ * Query Params: parametros nomeados enviados pela rota após o "?", que servem como filtros, paginação.
+ * 
+ * Route Params: utilizados para identificar recursos
+ * Request Body: Corpo da requisição, utilizado para alterar ou criar recursos
+ * 
+ */
+
+
+ app.use(express.json()); //para o codigo express reconhecer que estamos enviando informações no formato json, deixe sempre antes das funções que deseja executar.
+
+npm install nodemon -D // o "-D" significa que só irei utilizar o nodemon enquanto estou desenvolvendo
+
+knex para estruturar os comandos de javascript para sql
+
+npx knex migrate:make create_ongs //para criar o mode up/down 
+
+npx knex migrate:latest //para criar a tabela 

@@ -1,0 +1,15 @@
+Instalar o pacote de icones do react 24/07/20
+p-1 npm install react-icons 
+
+ importar no logon/index   
+p-2  import {FiLogIn} from 'react-icons/fi';
+
+
+install the package react-router-dom responsive for routes the aplication
+p-3 npm install react-router-dom
+
+
+1: 15 hrs
+
+
+43d65de0 id nova ong teste
